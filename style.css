@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+
+.highlights {
+  background-color: #f5f7fa;
+  text-align: center;
+  margin: 0;
+  padding: 56px 32px;
+  font-family: sans-serif;
+}
+
+.highlights__heading {
+  max-width: 500px;
+  font-size: 26px;
+  margin: 0 auto;
+  line-height: 1.2;
+}
+
+.highlights__list {
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto 0;
+  max-width: 1200px;
+}
+
+.highlight__description {
+  line-height: 1.5;
+}
+
+@media (min-width: 640px) {
+  .highlights__heading {
+    font-size: 32px;
+  }
+
+  .highlights__list {
+    flex-direction: row;
+  }
+
+  .highlight {
+    padding: 20px;
+  }
+}
